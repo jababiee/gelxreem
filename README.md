@@ -1,18 +1,40 @@
-# GelXReem website
+# GelXReem Website
 
-Static site for GelXReem (Gel X nails by Reem, Blacksburg VA). No build step — plain HTML, CSS, and JS.
+A website developed for GelXReem, a small nail art business located in Blacksburg, Virginia. This project was created as part of the BIT 4484 Project Management Capstone course at Virginia Tech.
 
-## Put it on GitHub Pages
-1. Create a repo (e.g. `gelxreem`) and upload everything in this folder, keeping the `images/` folder.
-2. Repo **Settings → Pages → Build and deployment → Deploy from a branch**, pick `main` and `/ (root)`, save.
-3. The site goes live at `https://<username>.github.io/gelxreem/` within a minute or two.
+## Project Overview
 
-## Quick edits
-- **Availability line:** search `Booked until` in `index.html`.
-- **Prices:** the price list and the booking pills (`data-low` / `data-high`) are both in `index.html`.
-- **About text:** search `Meet Reem` in `index.html`.
-- **Gallery:** add photos to `images/` and add a `<figure>` line inside a `.track` in `gallery.html`. Copy a whole `.reel` block to start a new set.
-- **Instagram handle for booking DMs:** top of `script.js`.
+The purpose of this website is to help streamline appointment requests and improve client organization for GelXReem as the business continues to grow. The site provides:
 
-## How booking works
-The form builds a request (length, shape, design details, add-ons, date, estimate), copies it to the clipboard, and opens an Instagram DM to @gelxreem. No server or paid service needed.
+- Service information and pricing
+- Appointment request functionality
+- Portfolio/gallery of nail designs
+- Business availability information
+- Direct booking through Instagram
+
+## Technology Stack
+
+- HTML
+- CSS
+- JavaScript
+- GitHub Pages
+
+## Deployment
+
+The website is deployed using GitHub Pages.
+
+1. Upload all project files to the repository.
+2. Navigate to **Settings → Pages**.
+3. Under **Build and Deployment**, select:
+   - Source: Deploy from a branch
+   - Branch: `main`
+   - Folder: `/ (root)`
+4. Save changes and allow several minutes for deployment.
+
+## Booking Process
+
+The booking form collects appointment details, generates a formatted request, copies it to the user's clipboard, and directs the user to Instagram messaging for communication with GelXReem.
+
+## Capstone Project
+
+This project was completed for BIT 4484 Project Management at Virginia Tech. The objective was to provide a practical business solution that improves scheduling efficiency, client management, and business growth support for GelXReem.
